@@ -101,6 +101,7 @@ bind '"\es": "n"'
 
 ### i  use arch btw 
 # fun part 
+alias neo='nvim ~/.config/nvim/init.lua'
 alias zeb-duke='blueman-manager'
 alias s='. ~/.bashrc'
 alias c='clear'
@@ -119,6 +120,7 @@ alias remove_with_dependency="sudo pacman -Rns"
 alias iinstall="sudo pacman -S"
 alias psg='ps aux | grep'
 alias ip='ip addr show | grep inet'
+alias vv='source ~/Desktop/virtualpy/bin/activate'
 #system monitoring 
 alias topcpu='top -o %CPU'
 alias topmem='top -o %MEM'
@@ -150,10 +152,8 @@ alias kitty_image='kitty +kitten icat'
 #Running a new container: If you want to create and start a new instance of an image, use docker run <image_name>
 
 ### Arch linux 
-
-
-
-
+alias chadwm='startx ~/.config/chadwm/scripts/run.sh'
+alias cd..='cd ..'
 
 
 
